@@ -3,9 +3,8 @@ package testbed
 import io.kotlintest.shouldBe
 import io.kotlintest.specs.StringSpec
 
-
-class CalculatorSpec: StringSpec({
-    "this should be ok"  {
+class CalculatorSpec : StringSpec({
+    "this should be ok" {
         println("hello hello")
         "s" shouldBe "s"
     }
